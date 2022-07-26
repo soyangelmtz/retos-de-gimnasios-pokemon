@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://cdn2.unrealengine.com/fortnite-silk-sonic-1920x1080-d954020bee68.jpg);
+    background-attachment: fixed;
+    color: rgb(214, 255, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    background-image: url(https://www.musicmundial.com/wp-content/uploads/2020/10/Bruno-Mars-regresa-a-la-musica-en-noviembre-con-un-tema-pop-rock-segun-insider-de-confianza.jpg);
+    font-family: fantasy;
+    font-variant: small-caps;
+    color: black
+}
+.lista{
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: content-box;
+    border-radius: 10px;
+}
+
+.test1{
+    color: rgb(231, 68, 68);
+    background-color: aqua;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    gap: 1em;
+    padding: 1px;
+}
